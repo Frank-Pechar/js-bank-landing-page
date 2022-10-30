@@ -1,5 +1,7 @@
 # Bankist - Banking Landing Page Application - JavaScript Course Project
 
+App can be run from: https://frank-pechar-bank-land-page.netlify.app/
+
 JavaScript Course Coding Project by Jonas Schmedtmann I Completed. Coded JavaScript for this Banking Landing Page through the course.
 
 APP FUNCTIONALTY - Implemented the following:
