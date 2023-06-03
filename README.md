@@ -1,8 +1,12 @@
-# Bankist - Banking Landing Page Application - JavaScript Course Project
+# Bankist Project - Banking Landing Page 
+# JavaScript Project
+## Desription of App Functionality, Features, and Methods
+
+Javascript coding project I completed the Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. 
 
 App can be run from: https://frank-pechar-bank-land-page.netlify.app/
 
-JavaScript Course Coding Project by Jonas Schmedtmann I Completed. Coded JavaScript for this Banking Landing Page through the course.
+## This App Uses Javascript Features Such As:
 
 APP FUNCTIONALTY - Implemented the following:
 
