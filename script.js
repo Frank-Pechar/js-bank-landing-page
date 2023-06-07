@@ -12,7 +12,7 @@ const tabsContainer = document.querySelector('.operations__tab-container');
 const tabsContent = document.querySelectorAll('.operations__content');
 
 ///////////////////////////////////////
-// Modal window
+// open account - modal
 
 const openModal = function (e) {
   e.preventDefault();
@@ -25,8 +25,10 @@ const closeModal = function () {
   overlay.classList.add('hidden');
 };
 
+// add event handler for the two open account modal buttons
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
 
+// add event handler for closing modal
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
@@ -37,13 +39,13 @@ document.addEventListener('keydown', function (e) {
 });
 
 ///////////////////////////////////////
-// Button scrolling
+// click learn more button to scroll to features section
 
 btnScrollTo.addEventListener('click', function (e) {
   section1.scrollIntoView({ behavior: 'smooth' });
 });
 
-/***************  Scrolling Practices ***************
+/**********  Testing area for Scrolling Practices **********
 
   const s1coords = section1.getBoundingClientRect();
   console.log(s1coords);
@@ -74,7 +76,8 @@ btnScrollTo.addEventListener('click', function (e) {
 ///////////////////////////////////////
 // Page navigation
 
-// Event Delegation
+// Event Delegation - event listener on parent ul element
+// Smooth scrolling to different sections on the page
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
   // Check for target element
@@ -89,7 +92,8 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 });
 
 ///////////////////////////////////////
-// Tabbed component
+// Tabbed component - operations section
+// Event Delegation for tabs
 
 tabsContainer.addEventListener('click', function (e) {
   const clicked = e.target.closest('.operations__tab');
@@ -97,7 +101,7 @@ tabsContainer.addEventListener('click', function (e) {
   // Guard clause
   if (!clicked) return;
 
-  // Remove active classes
+  // Remove active classes (reset)
   tabs.forEach(t => t.classList.remove('operations__tab--active'));
   tabsContent.forEach(c => c.classList.remove('operations__content--active'));
 
@@ -111,7 +115,7 @@ tabsContainer.addEventListener('click', function (e) {
 });
 
 ///////////////////////////////////////
-// Menu fade animation
+// Hover menu fade/highlight animation
 
 const handleHover = function (e) {
   if (e.target.classList.contains('nav__link')) {
@@ -122,6 +126,7 @@ const handleHover = function (e) {
     const siblings = link.closest('.nav').querySelectorAll('.nav__link');
     const logo = link.closest('.nav').querySelector('img');
 
+    // this = opacity value
     siblings.forEach(el => {
       if (el !== link) el.style.opacity = this;
     });
@@ -154,7 +159,7 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 headerObserver.observe(header);
 
 ///////////////////////////////////////
-// Reveal sections
+// Reveal sections while scrolling into them
 
 const allSections = document.querySelectorAll('.section');
 

@@ -20,6 +20,8 @@
 
 html {
   font-size: 62.5%;
+  /* font-size: clamp(0.5rem, 1.5vw, 1.5rem); */
+  font-size: clamp(0.5rem, 0.7vw, 1rem);
   box-sizing: border-box;
 }
 
@@ -647,4 +649,11 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    /* font-size: clamp(0.5rem, 0.7vw, 1rem); */
+    font-size: clamp(0.4rem, 0.7vw, 1rem);
+  }
 }
