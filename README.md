@@ -19,4 +19,6 @@ Revealed delayed section content upon scrolling for effect
 Tabbed component for banking services
 Slider carousel functionality for testimonial section
 
+- click <learn more> button to smooth scroll to features section
+
 Initial Upload of Completed Project 10/30/2022
