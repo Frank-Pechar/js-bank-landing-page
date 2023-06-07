@@ -22,6 +22,7 @@ Slider carousel functionality for testimonial section
 - click <learn more> button to smooth scroll to features section
 - scrollIntoView() method
 - tested various scrolling and coordinate gathering techniques 
-- event delegation for menu navigation items
+- event delegation for menu navigation items and tabbed component
+- tabbed functionality
 
 Initial Upload of Completed Project 10/30/2022
