@@ -27,5 +27,6 @@ Slider carousel functionality for testimonial section
 - dynamic dataSet attributes/properties
 - menu item hover fade and highlight effects
 - sticky navigation using: getBoundingClientRect(), isIntersecting), IntersectionObserver(), observe()
+- reveal sections upon scroll using IntersectionObserver(), isIntersecting, observe(), unobserve()
 
 Initial Upload of Completed Project 10/30/2022
