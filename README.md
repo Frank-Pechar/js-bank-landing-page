@@ -25,7 +25,3 @@ App can be run from: https://frank-pechar-js-bank-land-page.netlify.app/
 - Use of dynamic dataSet attributes/properties
 - Sticky navigation using: getBoundingClientRect(), isIntersecting), IntersectionObserver(), observe()
 - Reveal sections upon scroll using IntersectionObserver(), isIntersecting, observe(), unobserve()
-
-- click <learn more> button to smooth scroll to features section
-
-Initial Upload of Completed Project 10/30/2022
