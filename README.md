@@ -20,5 +20,8 @@ Tabbed component for banking services
 Slider carousel functionality for testimonial section
 
 - click <learn more> button to smooth scroll to features section
+- scrollIntoView() method
+- tested various scrolling and coordinate gathering techniques 
+- event delegation for menu navigation items
 
 Initial Upload of Completed Project 10/30/2022
