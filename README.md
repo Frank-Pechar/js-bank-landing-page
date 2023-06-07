@@ -24,5 +24,8 @@ Slider carousel functionality for testimonial section
 - tested various scrolling and coordinate gathering techniques 
 - event delegation for menu navigation items and tabbed component
 - tabbed functionality
+- dynamic dataSet attributes/properties
+- menu item hover fade and highlight effects
+- sticky navigation
 
 Initial Upload of Completed Project 10/30/2022
