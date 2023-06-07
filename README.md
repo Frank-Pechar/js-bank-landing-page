@@ -2,7 +2,7 @@
 # JavaScript Project
 ## Desription of App Functionality, Features, and Methods
 
-Javascript coding project I completed from Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. After coding this project through the course I then modified CSS so app would be more adaptive to smaller device formats (not for mobile phones). I also added extensive commenting of code for educational purposes.
+Javascript coding project I completed from Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. After coding this project through the course I then modified CSS so app would be more adaptive to smaller device formats (tablets but not for mobile phones). I also added extensive commenting of code for educational purposes.
 
 App can be run from: https://frank-pechar-js-bank-land-page.netlify.app/
 
