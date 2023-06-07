@@ -26,6 +26,6 @@ Slider carousel functionality for testimonial section
 - tabbed functionality
 - dynamic dataSet attributes/properties
 - menu item hover fade and highlight effects
-- sticky navigation
+- sticky navigation using: getBoundingClientRect(), isIntersecting), IntersectionObserver(), observe()
 
 Initial Upload of Completed Project 10/30/2022
