@@ -6,7 +6,7 @@ Javascript coding project I completed from Udemy - The Complete Javascript Cours
 
 App can be run from: https://frank-pechar-js-bank-land-page.netlify.app/
 
-Animations / Effects / Features
+## Animations / Effects / Features
          
 - Clicking one of the two &lt;Open account&gt; Buttons will cause a user info input modal to appear
 - Hover over navigation menu items will highlight and fade items
@@ -17,7 +17,7 @@ Animations / Effects / Features
 - Operate the slider in the Testimonials section - by clicking the &lt;arrow&gt; Button on the window or on the keyboard
 - Navigation menu will have a sticky effect when scrolling down past the first section of the page
 
-## This App Uses Javascript Features Such As:
+## Javascript Features and Methods Used
 
 - Modal popup for opening account
 - Sticky navigation using Intersection Observer API
