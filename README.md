@@ -1,10 +1,21 @@
-# Bankist Project - Banking Landing Page 
-# JavaScript Project
+# Bank Landing Page 
+## JavaScript Project
 ## Desription of App Functionality, Features, and Methods
 
-Javascript coding project I completed from Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. After coding this project through the course I then modified CSS so app would be more adaptive to smaller device formats (tablets but not for mobile phones). I also added extensive commenting of code for educational purposes.
+Javascript coding project I completed from Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. After coding this project through the course I then modified CSS so App would be more adaptive to smaller device formats (tablets but not for mobile phones). I also added commenting of code for educational purposes.
 
 App can be run from: https://frank-pechar-js-bank-land-page.netlify.app/
+
+Animations / Effects / Features
+         
+- Clicking one of the two &lt;Open account&gt; Buttons will cause a user info input modal to appear
+- Hover over navigation menu items will highlight and fade items
+- Clicking the &lt;Learn More&gt; Button will smooth scroll to Features section
+- Sections will reveal with a delayed animated effect when scrolling down
+- Images will lazy load when scrolling down the page
+- Clicking a tab in Operations section will cause content to display for that tab
+- Operate the slider in the Testimonials section - by clicking the &lt;arrow&gt; Button on the window or on the keyboard
+- Navigation menu will have a sticky effect when scrolling down past the first section of the page
 
 ## This App Uses Javascript Features Such As:
 
