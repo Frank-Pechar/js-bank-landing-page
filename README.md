@@ -36,4 +36,6 @@ This Landing Page App Features a Variety of Javascript Produced Animated Effects
 - Dynamic class manipulation
 - Listening to wide variety of events
 
-List of some methods and properties used: scrollIntoView(), IntersectionObserver(), observe(), unobserve(), getBoundingClientRect(), isIntersecting), dataset
+List of some methods and properties used: 
+
+IntersectionObserver(), observe(), unobserve(), getBoundingClientRect(), isIntersecting), scrollIntoView(), dataset
