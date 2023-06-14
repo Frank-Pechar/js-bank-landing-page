@@ -1,6 +1,6 @@
 # Bank Landing Page 
 ## JavaScript Project
-## Desription of App Functionality, Features, and Methods
+## Description of App Functionality, Features, and Methods
 
 Javascript coding project I completed from Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. After coding this project through the course I then modified CSS so App would be more adaptive to smaller device formats (tablets but not for mobile phones). I also added commenting of code for educational purposes.
 
