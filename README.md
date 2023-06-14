@@ -8,7 +8,7 @@ App can be run from: https://frank-pechar-js-bank-land-page.netlify.app/
 
 ## App Description 
 
-This Landing Page App Features a Variety of Javascript Produced Animated Effects
+This Landing Page App Features a Variety of Javascript Produced Animated Effects.
 
 ## Animations / Effects / Features
          
