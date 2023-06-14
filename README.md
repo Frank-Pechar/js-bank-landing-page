@@ -1,10 +1,14 @@
 # Bank Landing Page 
-## JavaScript Course Project
+## JavaScript Project
 ## Description of App Functionality, Features, and Methods
 
 Javascript coding project I completed from Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. After coding this project through the course I then modified CSS so App would be more adaptive to smaller device formats (tablets but not for mobile phones). I also added commenting of code for educational purposes.
 
 App can be run from: https://frank-pechar-js-bank-land-page.netlify.app/
+
+## App Description 
+
+This Landing Page App Features a Variety of Javascript Produced Animated Effects
 
 ## Animations / Effects / Features
          
