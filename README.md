@@ -19,21 +19,17 @@ App can be run from: https://frank-pechar-js-bank-land-page.netlify.app/
 
 ## Javascript Features and Methods Used
 
-- Modal popup for opening account
 - Sticky navigation using Intersection Observer API
-- Menu item hover fade and highlight effects 
+- Slider carousel functionality for testimonial section
+- Tabbed component functionality for banking services
 - Event delegation for menu navigation items and tabbed component
 - Lazy loading of images
-- Smooth scrolling
 - Reveal delayed section content upon scrolling for effect
-- Tabbed component functionality for banking services
-- Slider carousel functionality for testimonial section
-
-## Coding Methods and Features Used:
-
-- ScrollIntoView() method
-- Tested various scrolling and coordinate gathering techniques 
-- Use of dynamic dataSet attributes/properties
-- Sticky navigation using: getBoundingClientRect(), isIntersecting), IntersectionObserver(), observe()
-- Reveal sections upon scroll using IntersectionObserver(), isIntersecting, observe(), unobserve()
+- Smooth scrolling
+- Menu item hover fade and highlight effects 
+- Modal popup for opening account
+- Use of dataset attributes 
 - Dynamic class manipulation
+- Listening to wide variety of events
+
+List of some methods and properties used: scrollIntoView(), IntersectionObserver(), observe(), unobserve(), getBoundingClientRect(), isIntersecting), dataset
