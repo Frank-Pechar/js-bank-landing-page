@@ -35,6 +35,7 @@ This Landing Page App Features a Variety of Javascript Produced Animated Effects
 - Use of dataset attributes 
 - Dynamic class manipulation
 - Listening to wide variety of events
+- Responsive Design Techniques
 
 List of some methods and properties used: 
 
