@@ -271,8 +271,7 @@ h4 {
   .nav__links-nav {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    margin-block: 2rem;
-    margin-left: 9rem;
+    margin: 2rem 2rem 2rem 9rem;
     transform: translateY(-2rem);
   }
 
