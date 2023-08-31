@@ -26,7 +26,7 @@ const closeModal = function () {
 };
 
 // add event handler for the two open account modal buttons
-btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
+btnsOpenModal.forEach((btn) => btn.addEventListener('click', openModal));
 
 // add event handler for closing modal
 btnCloseModal.addEventListener('click', closeModal);
@@ -102,8 +102,8 @@ tabsContainer.addEventListener('click', function (e) {
   if (!clicked) return;
 
   // Remove active classes (reset)
-  tabs.forEach(t => t.classList.remove('operations__tab--active'));
-  tabsContent.forEach(c => c.classList.remove('operations__content--active'));
+  tabs.forEach((t) => t.classList.remove('operations__tab--active'));
+  tabsContent.forEach((c) => c.classList.remove('operations__content--active'));
 
   // Activate tab
   clicked.classList.add('operations__tab--active');
@@ -123,14 +123,14 @@ const handleHover = function (e) {
     console.log(e.currentTarget);
     console.log(e.target);
     const link = e.target;
-    const siblings = link.closest('.nav').querySelectorAll('.nav__link');
-    const logo = link.closest('.nav').querySelector('img');
+    const siblings = link
+      .closest('.nav__links-nav')
+      .querySelectorAll('.nav__link');
 
     // this = opacity value
-    siblings.forEach(el => {
+    siblings.forEach((el) => {
       if (el !== link) el.style.opacity = this;
     });
-    logo.style.opacity = this;
   }
 };
 
@@ -205,7 +205,7 @@ const imgObserver = new IntersectionObserver(loadImg, {
   rootMargin: '200px',
 });
 
-imgTargets.forEach(img => imgObserver.observe(img));
+imgTargets.forEach((img) => imgObserver.observe(img));
 
 ///////////////////////////////////////
 // Carousel Slider
@@ -231,7 +231,7 @@ const slider = function () {
   const activateDot = function (slide) {
     document
       .querySelectorAll('.dots__dot')
-      .forEach(dot => dot.classList.remove('dots__dot--active'));
+      .forEach((dot) => dot.classList.remove('dots__dot--active'));
 
     document
       .querySelector(`.dots__dot[data-slide="${slide}"]`)
