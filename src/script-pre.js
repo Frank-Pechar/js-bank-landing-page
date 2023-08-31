@@ -1,6 +1,7 @@
 'use strict';
 
 const modal = document.querySelector('.modal');
+const form = document.querySelector('.modal__form');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
@@ -14,6 +15,7 @@ const tabsContent = document.querySelectorAll('.operations__content');
 ///////////////////////////////////////
 // open account - modal
 
+form.addEventListener('submit', closeModal);
 const openModal = function (e) {
   e.preventDefault();
   modal.classList.remove('hidden');
@@ -26,7 +28,7 @@ const closeModal = function () {
 };
 
 // add event handler for the two open account modal buttons
-btnsOpenModal.forEach((btn) => btn.addEventListener('click', openModal));
+btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
 
 // add event handler for closing modal
 btnCloseModal.addEventListener('click', closeModal);
@@ -102,8 +104,8 @@ tabsContainer.addEventListener('click', function (e) {
   if (!clicked) return;
 
   // Remove active classes (reset)
-  tabs.forEach((t) => t.classList.remove('operations__tab--active'));
-  tabsContent.forEach((c) => c.classList.remove('operations__content--active'));
+  tabs.forEach(t => t.classList.remove('operations__tab--active'));
+  tabsContent.forEach(c => c.classList.remove('operations__content--active'));
 
   // Activate tab
   clicked.classList.add('operations__tab--active');
@@ -128,7 +130,7 @@ const handleHover = function (e) {
       .querySelectorAll('.nav__link');
 
     // this = opacity value
-    siblings.forEach((el) => {
+    siblings.forEach(el => {
       if (el !== link) el.style.opacity = this;
     });
   }
@@ -205,7 +207,7 @@ const imgObserver = new IntersectionObserver(loadImg, {
   rootMargin: '200px',
 });
 
-imgTargets.forEach((img) => imgObserver.observe(img));
+imgTargets.forEach(img => imgObserver.observe(img));
 
 ///////////////////////////////////////
 // Carousel Slider
@@ -231,7 +233,7 @@ const slider = function () {
   const activateDot = function (slide) {
     document
       .querySelectorAll('.dots__dot')
-      .forEach((dot) => dot.classList.remove('dots__dot--active'));
+      .forEach(dot => dot.classList.remove('dots__dot--active'));
 
     document
       .querySelector(`.dots__dot[data-slide="${slide}"]`)
